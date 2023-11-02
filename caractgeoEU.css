@@ -1,0 +1,19 @@
+body {
+background-image:url(drp_ameri.jpg) ;background-position: center center; background-size: 100% 100%;background-attachment: fixed;}
+
+.div_02{background-color:black ;height: 90px;}
+
+.div_02 .Bsdll{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .Bgeo{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .BHome{font-size: 30px;margin-left: 5%;margin-top: 1%;}
+
+.div_01{background-color: #98FB98; width: 1000px;
+margin: 0 auto;}
+
+H1{text-align: center; color: #450363;}
+
+.div_03{font-size: 30px;text-align: center;}
+
+.carteEU{width: 700px;height: 500px;margin: auto;display: block;}
+
+.by {font-size: 25px; color: #FF4500;text-align: right;}

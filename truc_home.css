@@ -1,0 +1,67 @@
+body {
+background-image:url(drp_ameri.jpg) ;background-position: center center; background-size: 100% 100%;background-attachment: fixed;}
+
+.div_02{background-color:black ;height: 90px;}
+
+.div_02 .Bsdll{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .Bgeo{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .BHome{font-size: 30px;margin-left: 5%;margin-top: 1%;}
+
+.div_01{background-color: rgb(17, 23, 55); width: 1000px;
+margin: 0 auto;}
+
+h1 {text-align: center;color: #870101;font-size: 50px;}
+
+.intro {color: #1e67; text-align: center;font-size: 30px;}
+
+.indepEU{text-align: center;font-size: 23px;line-height: 30px;}
+
+h2 {text-align: center; color: #c2c005;}
+
+.anim {
+  position: relative;
+  padding: 0;
+  width: 950px;
+  height: 674;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #e69797;
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 1000px;
+  height: 674px;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+.anim .content:hover {
+  opacity: 1;
+}
+.anim .content .text {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+   ;
+}
+.anim .content:hover .text {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);}
+
+  .by {font-size: 25px; color: #FF4500;text-align: right;}
+
+  

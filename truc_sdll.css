@@ -1,0 +1,66 @@
+.p_1 {color: red; text-align: center; font-size: 25px;font-family: serif;}
+
+body {
+background-image:url(drp_ameri.jpg); background-position: center center; background-size: 100% 100%;background-attachment: fixed;}
+
+h1 {text-align: center; color:  
+#B8860B}
+
+.div_01{background-color: #87CEFA; width: 1000px;
+margin: 0 auto;}
+
+.div_02{background-color:black ;height: 90px;}
+
+.div_02 .Bsdll{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .Bgeo{font-size: 30px;margin-left: 1%;margin-top: 1%;}
+.div_02 .BHome{font-size: 30px;margin-left: 5%;margin-top: 1%;}
+
+.p_2{text-align: center;line-height: 35px; font-family:cursive; }
+
+.p_bio{text-align: center;font-size: 20px;color: green;font-family:URW Chancery L cursive; }
+
+.anim {
+  position: relative;
+  padding: 0;
+  width: 300px;
+  height: 450px;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.content {
+  opacity: 0;
+  font-size: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #1c87c9;
+  background-color: rgba(200, 200, 200, 0.5);
+  width: 300px;
+  height: 450px;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+.anim .content:hover {
+  opacity: 1;
+}
+.anim .content .text {
+  height: 0;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+   ;
+}
+.anim .content:hover .text {
+  opacity: 1;
+  transform: translateY(250px);
+  -webkit-transform: translateY(250px);}
+
+  .by {font-size: 25px; color: #FF4500;text-align: right;}
